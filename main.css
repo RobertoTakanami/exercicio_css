@@ -14,7 +14,7 @@ body > header{
     position: fixed;
     padding: 16px;
     background: linear-gradient(rgba(3, 36, 16, 0.8), transparent);
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     justify-content: space-between;
     display: inline-block;
 }
@@ -36,7 +36,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     display: inline;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin-right: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -75,7 +75,7 @@ section {
 section h2{
     text-align: center;
     margin-bottom: 16px;
-    color: aliceblue ;
+    color: rgb(0, 0, 0) ;
 }
 
 .articles article{
@@ -98,5 +98,22 @@ section h2{
 .articles article p {
     justify-content: center;
 }
+
+#sports{
+    background-color: aqua;
+}
+
+#economy{
+    background-color: rgb(0, 255, 64);
+}
+
+#games{
+    background-color: rgb(200, 255, 0);
+}
+
+#tecnology{
+    background-color: rgb(255, 123, 0);
+}
+
 
 
